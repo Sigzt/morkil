@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Aplicación</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Agrega tu archivo CSS aquí -->
+</head>
+<body>
+    <header>
+        <h1>Nombre de la Aplicación</h1>
+        <button id="registerButton">Registrar</button>
+    </header>
+
+    <main>
+        <section id="registrationSection">
+            <input type="text" id="playerNameInput" placeholder="Nombre de Jugador">
+            <button id="submitPlayerButton">Registrar</button>
+        </section>
+
+        <section id="playersSection">
+            <button id="playersButton">Jugadores</button>
+            <ul id="playerList">
+                <!-- Lista de jugadores se llenará dinámicamente -->
+            </ul>
+        </section>
+
+        <section id="messageSection">
+            <div id="messageCard">
+                <!-- Mensajes se mostrarán aquí -->
+            </div>
+            <button id="nextPhraseButton">Siguiente Frase</button>
+            <button id="gameModeButton">Modo de Juego</button>
+        </section>
+
+        <section id="gameModeMenu">
+            <ul>
+                <li>Fácil</li>
+                <li>Medio</li>
+                <li>Difícil</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script> <!-- Agrega tu archivo JavaScript aquí -->
+</body>
+</html>

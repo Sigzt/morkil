@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botones */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Mensaje */
+#messageCard {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Menú de modo de juego */
+#gameModeMenu {
+    display: none;
+}
+
+#gameModeMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#gameModeMenu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Lista de jugadores */
+#playerList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#playerList li {
+    margin-bottom: 5px;
+}
